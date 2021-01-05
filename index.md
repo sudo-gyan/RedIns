@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# KWOC 2020
 
-You can use the [editor on GitHub](https://github.com/sudo-gyan/RedIns/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Project Name: TITANIC SURVIVAL EXPLORATION
+### Mentor : Prashant Sengar
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Project Description: Script to download media from Reddit and post them on Instagram, Twitter and Facebook.
 
-### Markdown
+Project Repository: https://github.com/prashantsengar/RedIns
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### About KWOC:
+Kharagpur Winter of Code is a 5-week long online programme for the students, who are new to open source software development. The programme not only helps students to get involved in open source, but also preps them for many open source summer programmes, Google Summer of Code being one of them.  
 
-```markdown
-Syntax highlighted code block
+### Some Info About My Project
+I chose the project [RedIns](https://github.com/prashantsengar/RedIns) for KWOC and selected to work on issue [#5](https://github.com/prashantsengar/RedIns/issues/5). The primary aim was to use [RedPy](https://github.com/prashantsengar/RedPy) (another project of Prashant Sengar to download Reddit images and videos) in [RedIns](https://github.com/prashantsengar/RedIns) such that it will be easier to maintain and remove redundancy.
 
-# Header 1
-## Header 2
-### Header 3
+### Contribution #1
+There were several issues with [RedPy](https://github.com/prashantsengar/RedPy) code which was made to a single [issue](https://github.com/prashantsengar/RedPy/issues/1).
 
-- Bulleted
-- List
+The initial [PR](https://github.com/prashantsengar/RedPy/pull/2) was to fix those issues.
 
-1. Numbered
-2. List
+Some of the issues that were fixed are:
+- Packaging dependencies in `setup.py`.
+- Fixed importing issues.
+- Removed hardcoded paths.
+- Handled several errors and exceptions.
+- Exposed certain functions to make integration with [RedIns](https://github.com/prashantsengar/RedIns) easier.
 
-**Bold** and _Italic_ and `Code` text
+# Contribution #2
+After fixing [RedPy](https://github.com/prashantsengar/RedPy) I started to work on [RedIns](https://github.com/prashantsengar/RedIns)
 
-[Link](url) and ![Image](src)
-```
+There were several issues here my main focus was [#5](https://github.com/prashantsengar/RedIns/issues/5). I tried to solve most of it in the [PR #15](https://github.com/prashantsengar/RedIns/pull/15).
+The issues I tried to fix were [#1](https://github.com/prashantsengar/RedIns/issues/1), [#3](https://github.com/prashantsengar/RedIns/issues/3), [#5](https://github.com/prashantsengar/RedIns/issues/5).
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The changes that were done were :
+- Fully restructured code to use OOP structure.
+- Added RedPy to download Media.
+- Config structure was changed.
+- Added more customizations that user can use.
+- Made code more readable.
+- Added deepsource to track codequality and vulnerabilities.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sudo-gyan/RedIns/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Verdict
+I want to thank Prashant Sengar for his guidance in this project. It was a great learning experience for me . I want to thank KOSS, IIT KGP for conducting this beginner friendly program . This program helped me to learn what open source projects are and how to contribute to them.
