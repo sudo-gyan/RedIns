@@ -1,11 +1,11 @@
 # KWOC 2020
 
-### Project Name: TITANIC SURVIVAL EXPLORATION
+### Project Name: [RedIns](https://github.com/prashantsengar/RedIns)
 ### Mentor : Prashant Sengar
 
-#### Project Description: Script to download media from Reddit and post them on Instagram, Twitter and Facebook.
+#### Project Description:
+Script to download media from Reddit and post them on Instagram, Twitter and Facebook.
 
-Project Repository: https://github.com/prashantsengar/RedIns
 
 ### About KWOC:
 Kharagpur Winter of Code is a 5-week long online programme for the students, who are new to open source software development. The programme not only helps students to get involved in open source, but also preps them for many open source summer programmes, Google Summer of Code being one of them.  
@@ -40,4 +40,4 @@ The changes that were done were :
 - Added deepsource to track codequality and vulnerabilities.
 
 ### Verdict
-I want to thank Prashant Sengar for his guidance in this project. It was a great learning experience for me . I want to thank KOSS, IIT KGP for conducting this beginner friendly program . This program helped me to learn what open source projects are and how to contribute to them.
+I want to thank Prashant Sengar for his guidance in this project. It was a great learning experience for me. I want to thank KOSS, IIT KGP for conducting this beginner friendly program. This program helped me to learn what open source projects are and how to contribute to them.
